@@ -95,7 +95,8 @@ body {
   }
   
   /* My work experience section*/
-  .my-work-experience-section {
+  .my-work-experience-section,
+  .my-education-section {
     margin-bottom: 45px;
   }
   
@@ -124,7 +125,7 @@ body {
     color: black;
   }
   
-  .y-work-experience-duties {
+  .my-work-experience-duties {
     padding: 0 0 0 18px;
   }
   
@@ -136,33 +137,42 @@ body {
     color: #595959;
   }
   
-  .my-work-experience-company-block {
+  .my-work-experience-company-block,
+  .my-education-university-block {
     margin: 0 15px 0 0;
   }
   
   /* Education section */
   
-  /*.my-education-header {
+  .my-education-header {
     font-style: normal;
     font-weight: bold;
     font-size: 22px;
     line-height: 27px;
     color: #000000;
-  }*/
+  }
   
-  .my-education-university {
+  /*.my-education-university {
     font-style: normal;
     font-weight: bold;
     font-size: 16px;
     line-height: 15px;
     color: #fb6d3a;
-  }
+  }*/
   .my-education-faculty {
     font-style: normal;
     font-weight: bold;
     font-size: 14px;
     line-height: 10px;
     color: #000000;
+  }
+  .my-education-period {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    color: #a8a8a8;
+    margin: 0 0 10px 0;
   }
   
   /* Sidebar section */
@@ -174,7 +184,7 @@ body {
   
   .contacts-section,
   .tech-skills-section,
-  .soft-skills-section {
+  .other-skills-section {
     margin: 50px 0 0 40px;
   }
   
@@ -221,7 +231,7 @@ body {
     line-height: 24px;
     color: white;
   }
-  /* Other skills section */
+  /* Soft skills section */
   .other-skills-list {
     padding: 0 0 0 17px;
   }
